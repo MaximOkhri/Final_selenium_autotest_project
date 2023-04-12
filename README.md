@@ -1,1 +1,1 @@
-# Final_selenium_autotest_project
+# Final_selenium_autotest_project - финальный проект курса
