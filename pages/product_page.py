@@ -14,7 +14,6 @@ class ProductPage(BasePage):
         name_massage_text = name_massage.text
         assert product_name_text == name_massage_text, "product names are different"
 
-
     def should_be_right_basket_price(self):
         product_price = self.browser.find_element(*ProductPageLocators.PRODUCT_PRICE)
         product_price_text = product_price.text
